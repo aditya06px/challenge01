@@ -56,6 +56,7 @@ picture {
 .price-tag {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .price-tag :first-child{
@@ -74,7 +75,7 @@ ul li{
   list-style-position: inside;
 }
 .btn {
-  display: inline-block;
+  display: block;
   margin: 1rem auto;
   width: 90%;
   padding: 1rem 0;
